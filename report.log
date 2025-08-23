@@ -2,47 +2,19 @@ Analysing log files utilizing LOOPS
 ====================
 
 lists of log files updated in last 24 hour
-/home/madan/application/report.log
-/home/madan/application/application.log
-/home/madan/application/system.log
+/home/madan/application/logfiles/application.log
+/home/madan/application/logfiles/system.log
 =====================================================
-=======/home/madan/application/report.log============
-=====================================================
-=====================================================
-===================ERROR====================
-=====================================================
-
-Number of ERROR logs found in /home/madan/application/report.log
-2
-
-searching ERROR logs in /home/madan/application/report.log file
-=====================================================
-===================FATAL====================
-=====================================================
-
-Number of FATAL logs found in /home/madan/application/report.log
-2
-
-searching FATAL logs in /home/madan/application/report.log file
-=====================================================
-===================CRITICAL====================
-=====================================================
-
-Number of CRITICAL logs found in /home/madan/application/report.log
-2
-
-searching CRITICAL logs in /home/madan/application/report.log file
-=====================================================
-=======/home/madan/application/application.log============
+=======/home/madan/application/logfiles/application.log============
 =====================================================
 =====================================================
 ===================ERROR====================
 =====================================================
 
-Number of ERROR logs found in /home/madan/application/application.log
+Number of ERROR logs found in /home/madan/application/logfiles/application.log
 6
 
-searching ERROR logs in /home/madan/application/application.log file
+searching ERROR logs in /home/madan/application/logfiles/application.log file
 [2025-06-01 08:17:48] [ERROR] Payment gateway timeout after 30s for transaction TX78901234
 [2025-06-01 08:25:48] [ERROR] Insufficient disk space for file upload
 [2025-06-01 08:41:33] [ERROR] Invalid product code: PRD-404-NOTFOUND
@@ -53,33 +25,33 @@ searching ERROR logs in /home/madan/application/application.log file
 ===================FATAL====================
 =====================================================
 
-Number of FATAL logs found in /home/madan/application/application.log
+Number of FATAL logs found in /home/madan/application/logfiles/application.log
 2
 
-searching FATAL logs in /home/madan/application/application.log file
+searching FATAL logs in /home/madan/application/logfiles/application.log file
 [2025-06-01 08:47:22] [FATAL] Out of memory error in recommendation engine
 [2025-06-01 09:25:33] [FATAL] Kernel panic on worker node worker-03
 =====================================================
 ===================CRITICAL====================
 =====================================================
 
-Number of CRITICAL logs found in /home/madan/application/application.log
+Number of CRITICAL logs found in /home/madan/application/logfiles/application.log
 2
 
-searching CRITICAL logs in /home/madan/application/application.log file
+searching CRITICAL logs in /home/madan/application/logfiles/application.log file
 [2025-06-01 08:32:13] [CRITICAL] Database connection lost during backup
 [2025-06-01 09:17:22] [CRITICAL] Security alert: Multiple failed login attempts for admin account
 =====================================================
-=======/home/madan/application/system.log============
+=======/home/madan/application/logfiles/system.log============
 =====================================================
 =====================================================
 ===================ERROR====================
 =====================================================
 
-Number of ERROR logs found in /home/madan/application/system.log
+Number of ERROR logs found in /home/madan/application/logfiles/system.log
 13
 
-searching ERROR logs in /home/madan/application/system.log file
+searching ERROR logs in /home/madan/application/logfiles/system.log file
 Jun  1 01:20:18 server-prod-01 sshd[23954]: [ERROR] Failed password for root from 198.51.100.23 port 63122 ssh2
 Jun  1 01:20:19 server-prod-01 sshd[23954]: [ERROR] Failed password for root from 198.51.100.23 port 63122 ssh2
 Jun  1 01:20:20 server-prod-01 sshd[23954]: [ERROR] Failed password for root from 198.51.100.23 port 63122 ssh2
@@ -97,20 +69,20 @@ Jun  1 04:40:16 server-prod-01 kernel: [59416.789012] [ERROR] EDAC MC0: 1 CE mem
 ===================FATAL====================
 =====================================================
 
-Number of FATAL logs found in /home/madan/application/system.log
+Number of FATAL logs found in /home/madan/application/logfiles/system.log
 2
 
-searching FATAL logs in /home/madan/application/system.log file
+searching FATAL logs in /home/madan/application/logfiles/system.log file
 Jun  1 01:45:01 server-prod-01 kernel: [49411.123456] [FATAL] EXT4-fs error (device sda1): ext4_journal_check_start:56: Detected aborted journal
 Jun  1 01:45:02 server-prod-01 kernel: [49412.234567] [FATAL] EXT4-fs (sda1): Remounting filesystem read-only
 =====================================================
 ===================CRITICAL====================
 =====================================================
 
-Number of CRITICAL logs found in /home/madan/application/system.log
+Number of CRITICAL logs found in /home/madan/application/logfiles/system.log
 5
 
-searching CRITICAL logs in /home/madan/application/system.log file
+searching CRITICAL logs in /home/madan/application/logfiles/system.log file
 Jun  1 01:20:21 server-prod-01 sshd[23954]: [CRITICAL] Disconnecting: Too many authentication failures for root from 198.51.100.23 port 63122 ssh2 [preauth]
 Jun  1 01:45:06 server-prod-01 smartd[1234]: [CRITICAL] Device: /dev/sda [SAT], failed SMART usage Attribute: Reallocated_Sector_Ct.
 Jun  1 03:46:01 server-prod-01 smartd[1234]: [CRITICAL] Device: /dev/sdc [SAT], failed SMART usage Attribute: Raw_Read_Error_Rate.

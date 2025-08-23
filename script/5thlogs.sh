@@ -1,6 +1,6 @@
 #!/bin/bash
 
-LOG_DIR="/home/madan/application" 
+LOG_DIR="/home/madan/application/logfiles" 
 
 ERROR_PATTERNS=("ERROR" "FATAL" "CRITICAL")
 

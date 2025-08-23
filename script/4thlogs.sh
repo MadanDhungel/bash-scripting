@@ -1,6 +1,6 @@
 #!/bin/bash
 
-LOG_DIR="/home/madan/application"
+LOG_DIR="/home/madan/application/logfiles"
 APP_LOG="application.log"
 SYS_LOG="system.log"
 
