@@ -2,7 +2,8 @@
 
 LOG_DIR="/home/madan/application" 
 ERROR_PATTERNS=("ERROR" "FATAL" "CRITICAL")
-REPORT_FILE="/home/madan/logshell/report.log"
+touch $REPORT_FILE
+REPORT_FILE="/home/madan/application/report.log"
 
 echo "Analysing log files utilizing LOOPS" > $REPORT_FILE
 echo "====================" >> $REPORT_FILE
