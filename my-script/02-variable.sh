@@ -18,3 +18,10 @@ name="Jero"
 #the value of name variable is changed
 echo "Hello, my name is $name!, I am $age years old."
 echo "The script is running on host: $host"
+
+# Demonstrating read-only variable
+readonly college="ABC College"
+echo "I study at $college"
+#once the variable is marked as readonly, it cannot be changed
+#again providing variable college="XYZ University" 
+# This will cause an error if uncommented
