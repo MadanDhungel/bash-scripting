@@ -9,3 +9,8 @@ echo "The length of myVar is: ${#myVar}"
 #uppercase and lowercase
 echo "Uppercase is : ${myVar^^}"
 echo "Lowercase is : ${myVar,,}"
+
+
+#to replace a string
+newVar=${myVar/World/Universe}
+echo "New var is : $newVar"
