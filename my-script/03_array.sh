@@ -18,3 +18,9 @@ echo "The value from index 2-5 is: ${myArray[*]:2:3}"
 
 #accessing from index 3 to end
 echo "The value from index 3 to end is: ${myArray[*]:3}"
+
+#update the array value
+myArray+=( 22 33 "New Value" "Another New Value" 100 500)
+
+echo "Updated array is: ${myArray[*]}"
+echo "Length of updated array is: ${#myArray[*]}"
