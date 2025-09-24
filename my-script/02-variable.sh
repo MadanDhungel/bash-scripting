@@ -8,6 +8,7 @@ echo "Hello, my name is $name!, I am $age years old."
 echo "The script is running on host: $host" 
 
 #single line comment
+
 <<comment
 This is a multi-line comment
 You can write multiple lines of text here
