@@ -18,3 +18,9 @@ if  [[ $age -ge 18 || $country == "nepal" ]]; then
 else
     echo "You are not eligible to vote."
 fi
+
+
+#combining the AND and OR operator
+read -p "Enter your age: " age
+
+[[ $age -ge 18 ]] && echo "Adult" || echo "Minor"
